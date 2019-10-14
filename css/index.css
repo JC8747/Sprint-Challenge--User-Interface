@@ -91,6 +91,10 @@ p {
     padding-bottom:20px;
 }
 
+.headerabout {
+    margin:20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,6 +118,8 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+
 
 .middle-content .boxes {
     display: flex;
@@ -161,6 +167,26 @@ p {
 }
 .middle-content .boxes .box:nth-child(10){
     background: dodgerblue;
+}
+
+.aboutcontent{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.aboutcontent .aboutcontenttext{
+    width:45%;
+    border-block-end: dotted;
+    padding-top:20px;       
+}
+
+.aboutcontent .aboutcontenttext h2{
+    padding-top: 20px;
+}
+
+.aboutcontent .aboutcontenttext p{
+    padding-bottom: 20px;
 }
 
 .bottom-content {

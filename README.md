@@ -36,8 +36,8 @@ Edit this document to include your answers after each question. Make sure to lea
     HTML is described as "semantic" because the instructions you type are in plain language. While the sentence construction is different than English and terms can be used only in certain ways you can still understand what is meant just by reading through the HTML.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-    Inline elements are components of a page that can be defined with left and right padding and margin, but cannot have their height or width set. 
-    Block elements follow those same restrictions, but will automatically go to full width unless defined and force a line break after each block.
+    Content created as an inline element will exist on the same line it is created on, such as an image, with no contorl over the width and height but do follow left and righ tpadding. 
+    Block will automatically follow any margin, padding, or border information and will also automatically start a new line after each box.
 
 3. What are the 4 areas of the box model?
     Margin, Border, Padding, and Content
@@ -52,12 +52,12 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -95,10 +95,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Copy and paste your home page navigation and header into the about page
+* [X] Update the header image with the about page image
+* [X] Link the `Home` navigation item back to the `index.html` page.
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -106,7 +106,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [X] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [X] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries

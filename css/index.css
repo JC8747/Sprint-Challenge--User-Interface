@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    transition:all 0.7s ease;
 }
 ol, ul {
 	list-style: none;
@@ -71,6 +72,37 @@ p {
     margin: 0 auto;
 }
 
+.container .links{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    padding-bottom: 20px;
+    }
+
+.container .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding:20px;
+}
+
+.container .links a:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.container .headimg{
+    width:100%;
+    padding-bottom:20px;
+}
+
+.headerabout {
+    padding:20px;
+    border-block-end: dotted 2px black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +133,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +142,84 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background:gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background:coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background:crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
+.aboutcontent{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.aboutcontent .aboutcontenttext{
+    width:45%;
+    border-block-end: dotted 2px black;
+    padding-top:20px;
+    padding-bottom: 20px;       
+}
+
+.aboutcontent .aboutcontenttext h2{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.aboutcontent .aboutcontenttext p{
+    padding-bottom: 20px;
+}
+
+.aboutcontent .aboutcontenttext h3{
+    display:inline-block;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: initial;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.products .text-container {
+    width: 50%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 .bottom-content {
@@ -124,6 +234,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.aboutcall{
+    padding:30px;
 }
 
 footer {

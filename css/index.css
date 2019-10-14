@@ -92,7 +92,8 @@ p {
 }
 
 .headerabout {
-    margin:20px;
+    padding:20px;
+    border-block-end: dotted 2px black;
 }
 
 .top-content {
@@ -118,8 +119,6 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-
 
 .middle-content .boxes {
     display: flex;
@@ -172,21 +171,33 @@ p {
 .aboutcontent{
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .aboutcontent .aboutcontenttext{
-    width:45%;
+    width:50%;
     border-block-end: dotted;
-    padding-top:20px;       
+    padding-top:20px;
+    padding-bottom: 20px;       
 }
 
 .aboutcontent .aboutcontenttext h2{
     padding-top: 20px;
+    font-weight: bold;
 }
 
 .aboutcontent .aboutcontenttext p{
     padding-bottom: 20px;
+}
+
+.aboutcontent .aboutcontenttext h3{
+    display:inline-block;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
 
 .bottom-content {
@@ -201,6 +212,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.aboutcall{
+    padding:30px;
 }
 
 footer {
